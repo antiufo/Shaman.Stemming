@@ -1,0 +1,51 @@
+{
+  "version": "1.0.1.1",
+  "compilationOptions": {
+    "keyFile": "Key.snk"
+  },
+  "compile": [],
+  "authors": [
+    "Martin Porter",
+    "Richard Boulton",
+    "Patrick Miles",
+    "Andrei Aksyonoff",
+    "Oleg Bartunov",
+    "Steve Tolkin",
+    "Wendy Reetz",
+    "Fred Brault",
+    "Blake Madden",
+    "Anna Tordai",
+    "Evren Cilden",
+    "Olly Betts",
+    "James Aylett",
+    "Erwin Glockner",
+    "Doina Gliga",
+    "Marina Stegarescu",
+    "Andrea Martinelli"
+  ],
+  "description": "Low-allocation version of Snowball stemmers.",
+  "tags": [
+    "stemming",
+    "stemmer",
+    "snowball",
+    "porter",
+    "nlp",
+    "performance",
+    "optimization"
+  ],
+  "iconUrl": "http://shaman.io/images/shaman-nuget-icon.png",
+  "projectUrl": "http://shaman.io/",
+  "dependencies": {
+    "Shaman.ValueString": "1.0.2.5"
+  },
+  "frameworks": {
+    "net45+win+wpa81": {
+      "frameworkAssemblies": {
+        "System.Runtime": "4.0.0.0",
+        "System.Runtime.Extensions": "4.0.0.0",
+        "System.Reflection": "4.0.0.0",
+        "System.Linq.Expressions": "4.0.0.0"
+      }
+    }
+  }
+}
