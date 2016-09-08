@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1.1",
+  "version": "1.0.1.2",
   "compilationOptions": {
     "keyFile": "Key.snk"
   },
@@ -36,15 +36,15 @@
   "iconUrl": "http://shaman.io/images/shaman-nuget-icon.png",
   "projectUrl": "http://shaman.io/",
   "dependencies": {
-    "Shaman.ValueString": "1.0.2.5"
+    "Shaman.ValueString": "1.0.2.19"
   },
   "frameworks": {
-    "net45+win+wpa81": {
-      "frameworkAssemblies": {
-        "System.Runtime": "4.0.0.0",
-        "System.Runtime.Extensions": "4.0.0.0",
-        "System.Reflection": "4.0.0.0",
-        "System.Linq.Expressions": "4.0.0.0"
+    "net45": {},
+    "netstandard1.3": {
+      "dependencies": {
+        "System.Runtime": "4.1",
+        "System.Runtime.Extensions": "4.1",
+        "System.Linq.Expressions": "4.1"
       }
     }
   }
